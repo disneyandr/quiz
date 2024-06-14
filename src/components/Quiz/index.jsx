@@ -28,7 +28,7 @@ const Quiz = ({ questions }) => {
         finalAnswer
                 ? {
                     ...prev,
-                    score: prev.score + 5,
+                    score: prev.score + 9,
                     correctAnswers: prev.correctAnswers + 1,
                 }
                 : {
@@ -60,7 +60,7 @@ const Quiz = ({ questions }) => {
         <div className="quiz-container">
             {!showResult ? (
                 <>
-                {showAnswerTimer && <TempoDeResposta duration={10} onTimeUp={handleTimeUp}/>}
+                {showAnswerTimer && <TempoDeResposta duration={20} onTimeUp={handleTimeUp}/>}
                     <span className="active-question-no">
                         {currentQuestion + 1}
                     </span>

@@ -2,194 +2,113 @@ export const jsQuizz = {
     questions: [
       {
         question:
-          "Qual dos seguintes é usado no React.js para aumentar o desempenho?",
+          "Qual das alternativas a seguir melhor descreve a biblioteca React?",
         choices: [
-          "Virtual DOM",
-          "DOM Original",
-          "Ambos A e B",
-          "Nenhum dos anteriores",
+          "Uma linguagem de programação para desenvolvimento web",
+          "Um framework JavaScript para construir interfaces de usuário",
+          "Um mecanismo de renderização do lado do servidor para aplicações web",
+          "Uma ferramenta para criar e gerenciar bancos de dados",
         ],
         type: "MCQs",
-        correctAnswer: "Virtual DOM",
+        correctAnswer: "Um framework JavaScript para construir interfaces de usuário",
       },
+
       {
-        question: "O que é o ReactJS?",
+        question: "Qual a principal vantagem de usar React para criar quizzes?",
         choices: [
-          "Framework do lado do servidor",
-          "Framework de Interface de Usuário",
-          "Ambos A e B",
-          "Nenhum dos anteriores",
+          "React é mais rápido que outros frameworks JavaScript.",
+          "A abordagem baseada em componentes do React facilita a criação de componentes de quiz modulares e reutilizáveis.",
+          "O React possui uma biblioteca integrada de componentes de quiz.",
+          "O React é o único framework JavaScript adequado para a construção de quizzes.",
         ],
         type: "MCQs",
-        correctAnswer: "Framework de Interface de Usuário",
+        correctAnswer: "A abordagem baseada em componentes do React facilita a criação de componentes de quiz modulares e reutilizáveis.",
       },
+
       {
         question:
-          "Identifique qual é usado para passar dados para componentes de fora",
-        choices: ["Render com argumentos", "setState", "PropTypes", "props"],
-        type: "MCQs",
-        correctAnswer: "props",
-      },
-      {
-        question: "Em qual linguagem o React.js é escrito?",
-        choices: ["Python", "Java", "C#", "JavaScript"],
-        type: "MCQs",
-        correctAnswer: "JavaScript",
-      },
-      {
-        question: "O que é o Babel?",
+          "Como o mecanismo de gerenciamento de estado do React ajuda na construção de quizzes?",
         choices: [
-          "Interpretador de JavaScript",
-          "Transpilador de JavaScript",
-          "Compilador de JavaScript",
-          "Nenhum dos anteriores",
+          "Permite armazenar e gerenciar as perguntas do quiz, as respostas e o progresso do usuário.", 
+          "Permite conectar-se a APIs externas e buscar dados do quiz.", 
+          "Fornece regras de validação integradas para a entrada do usuário.", 
+          "Trata da renderização da interface do quiz."],
+        type: "MCQs",
+        correctAnswer: "Permite armazenar e gerenciar as perguntas do quiz, as respostas e o progresso do usuário.",
+      },
+
+      {
+        question: "O que são hooks do React e como eles são úteis no desenvolvimento de quizzes?",
+        choices: [
+          "Hooks do React são novos recursos do JavaScript que simplificam o gerenciamento de estado.",
+          "Eles fornecem uma maneira de reutilizar código em diferentes componentes de quiz.",
+          "Permitem criar animações personalizadas para a interface do quiz.",
+          "Permitem lidar com operações assíncronas como busca de dados.",
         ],
         type: "MCQs",
-        correctAnswer: "Compilador de JavaScript",
+        correctAnswer: "Hooks do React são novos recursos do JavaScript que simplificam o gerenciamento de estado.",
       },
+
       {
-        question: "Qual é a função do ReactDOM.render() no React?",
+        question: "Qual o papel do CSS (Cascading Style Sheets) na construção de quizzes React?",
         choices: [
-          "Renderizar um componente no DOM",
-          "Definir o estado inicial de um componente",
-          "Criar um novo componente",
-          "Nenhum dos anteriores",
+          "Define a estrutura e o layout da interface do quiz.", 
+          "Trata da lógica das perguntas do quiz e da avaliação das respostas.", 
+          "Fornece uma maneira de armazenar e gerenciar dados do quiz.", 
+          "Permite conectar-se a APIs externas."
         ],
         type: "MCQs",
-        correctAnswer: "Renderizar um componente no DOM",
+        correctAnswer: "Define a estrutura e o layout da interface do quiz.",
       },
+      
       {
-        question: "O que são Hooks no React?",
+        question: "Qual das seguintes bibliotecas pode ser usada para aprimorar a interatividade dos quizzes React?",
         choices: [
-          "Funções que realizam chamadas de rede",
-          "Funções que permitem o uso de estado e outras características do React em componentes funcionais",
-          "Métodos de classe em componentes de classe",
-          "Nenhum dos anteriores",
+          "React Spring",
+          "Framer Motion",
+          "Tanto React Spring quanto Framer Motion",
+          "Nem React Spring nem Framer Motion são adequados para quizzes",
         ],
         type: "MCQs",
-        correctAnswer: "Funções que permitem o uso de estado e outras características do React em componentes funcionais",
+        correctAnswer: "Tanto React Spring quanto Framer Motion",
       },
+
       {
-        question: "O que é JSX no contexto do React?",
+        question: "Qual o objetivo de uma biblioteca de roteamento como o React Router no desenvolvimento de quizzes?",
         choices: [
-          "Uma extensão de sintaxe para JavaScript recomendada pelo React",
-          "Um formato de arquivo de configuração",
-          "Um sistema de gerenciamento de pacotes para o React",
-          "Nenhum dos anteriores",
+          "Gerencia o fluxo das perguntas do quiz e a navegação entre elas.",
+          "Trata da exibição dos resultados e feedbacks do quiz.",
+          "Fornece uma maneira de armazenar e gerenciar dados do quiz.",
+          "Permite conectar-se a APIs externas.",
         ],
         type: "MCQs",
-        correctAnswer: "Uma extensão de sintaxe para JavaScript recomendada pelo React",
+        correctAnswer: "Gerencia o fluxo das perguntas do quiz e a navegação entre elas.",
       },
+
       {
-        question: "O que é um componente controlado no React?",
+        question: "Como uma ferramenta como o Storybook pode ser benéfica para o desenvolvimento de quizzes React?",
         choices: [
-          "Um componente que gerencia automaticamente seu próprio estado interno",
-          "Um componente que aceita apenas propriedades de leitura",
-          "Um componente que é controlado por eventos do mouse",
-          "Nenhum dos anteriores",
+          "Facilita a criação de componentes de quiz interativos em isolamento.",
+          "Automatiza o teste da funcionalidade do quiz.",
+          "Fornece uma maneira de implantar quizzes em ambientes de produção.",
+          "Permite conectar-se a APIs externas.",
         ],
         type: "MCQs",
-        correctAnswer: "Um componente que gerencia automaticamente seu próprio estado interno",
+        correctAnswer: "Facilita a criação de componentes de quiz interativos em isolamento.",
       },
+
       {
-        question: "Qual é a diferença entre state e props no React?",
+        question: "Qual das seguintes afirmações descreve com precisão a abordagem geral para a construção de quizzes React?",
         choices: [
-          "State é imutável, props podem ser modificadas",
-          "State é gerenciado pelo componente, props são recebidas de um componente pai",
-          "State e props são conceitos intercambiáveis",
-          "Nenhum dos anteriores",
+          "Os quizzes React envolvem a escrita de código JavaScript complexo para gerenciar a lógica e o estado do quiz.",
+          "Os quizzes React utilizam componentes modulares, gerenciamento de estado, estilo CSS e bibliotecas para criar experiências interativas.",
+          "Os quizzes React exigem amplo conhecimento de frameworks de desenvolvimento web e tecnologias de back-end.",
+          "Os quizzes React são construídos principalmente usando CSS e HTML, com o mínimo de envolvimento de JavaScript.",
         ],
         type: "MCQs",
-        correctAnswer: "State é gerenciado pelo componente, props são recebidas de um componente pai",
+        correctAnswer: "Os quizzes React utilizam componentes modulares, gerenciamento de estado, estilo CSS e bibliotecas para criar experiências interativas.",
       },
-      {
-        question: "O que é o Redux no contexto do React?",
-        choices: [
-          "Um gerenciador de estado para aplicações React",
-          "Uma biblioteca para criação de componentes funcionais",
-          "Um método para renderização condicional em React",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "Um gerenciador de estado para aplicações React",
-      },
-      {
-        question: "Como você pode otimizar o desempenho de um componente React?",
-        choices: [
-          "Usando um Virtual DOM",
-          "Aumentando a complexidade do componente",
-          "Removendo o estado do componente",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "Usando um Virtual DOM",
-      },
-      {
-        question: "O que são refs no React?",
-        choices: [
-          "Um método para criar referências a objetos JavaScript",
-          "Um sistema de referência cruzada entre componentes",
-          "Um recurso de manipulação de strings em JSX",
-          "Um meio de acessar o DOM diretamente",
-        ],
-        type: "MCQs",
-        correctAnswer: "Um meio de acessar o DOM diretamente",
-      },
-      {
-        question: "O que é o JSX no React?",
-        choices: [
-          "Um pré-processador de JavaScript",
-          "Uma linguagem de marcação para definir elementos React",
-          "Um mecanismo de busca de componentes",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "Uma linguagem de marcação para definir elementos React",
-      },
-      {
-        question: "Qual é a função do método componentDidMount() em um componente de classe no React?",
-        choices: [
-          "É chamado após a renderização do componente, útil para operações de inicialização",
-          "Define as props iniciais do componente",
-          "Remove o componente do DOM",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "É chamado após a renderização do componente, útil para operações de inicialização",
-      },
-      {
-        question: "O que são 'Higher Order Components' (HOCs) no React?",
-        choices: [
-          "Componentes que estão acima na hierarquia de renderização",
-          "Componentes que aceitam apenas props",
-          "Componentes que retornam outros componentes",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "Componentes que retornam outros componentes",
-      },
-      {
-        question: "Qual é a diferença entre o React e o React Native?",
-        choices: [
-          "React é para desenvolvimento web, React Native é para desenvolvimento móvel",
-          "React é uma linguagem de programação, React Native é um framework",
-          "Não há diferença, os termos são usados de forma intercambiável",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "React é para desenvolvimento web, React Native é para desenvolvimento móvel",
-      },
-      {
-        question: "O que são 'prop-types' no React?",
-        choices: [
-          "Tipos de dados primitivos em JavaScript",
-          "Uma biblioteca para validar as props recebidas pelos componentes",
-          "Uma técnica de otimização de renderização em React",
-          "Nenhum dos anteriores",
-        ],
-        type: "MCQs",
-        correctAnswer: "Uma biblioteca para validar as props recebidas pelos componentes",
-      },
+      
     ],
   };
 
